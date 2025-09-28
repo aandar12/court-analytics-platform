@@ -76,3 +76,17 @@ INNER JOIN [dbo].[dim_case_details] cd ON f.case_details_sk = cd.case_details_sk
 INNER JOIN [dbo].[dim_court] dc ON f.court_sk = dc.court_sk
 WHERE dd.is_current = 1 AND cd.is_current = 1
 GROUP BY dc.court_district, dc.court_district_code, cd.charge_severity, dd.income_level;
+
+
+-- Test the analytics view
+SELECT TOP 10 * FROM [dbo].[vw_court_proceedings_analytics] 
+WHERE needs_representation = 1
+ORDER BY representation_priority_score DESC;
+
+-- Summary statistics for Power BI validation
+SELECT 
+    COUNT(*) as total_proceedings,
+    SUM(CASE WHEN needs_representation = 1 THEN 1 ELSE 0 END) as needs_representation_count,
+    AVG(CAST(representation_priority_score AS FLOAT)) as avg_priority_score,
+    COUNT(DISTINCT court_district) as unique_courts,
+    COUNT(DISTINCT defendant_id) as unique_defendants
