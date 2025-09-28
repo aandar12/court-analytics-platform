@@ -27,7 +27,9 @@ Criminal justice agencies lack real-time visibility into defendants who need but
 
 <img width="817" height="341" alt="image" src="https://github.com/user-attachments/assets/d394f4ff-8267-4a51-80ef-8143545e9738" />
 
+## Dashboard
 
+<img width="973" height="524" alt="image" src="https://github.com/user-attachments/assets/85faba28-bc33-4261-88c6-5cdf89059734" />
 
 ### Technology Stack
 
@@ -93,8 +95,6 @@ Criminal justice agencies lack real-time visibility into defendants who need but
 - **Alert Generation**: Automated identification of cases requiring immediate attention
 - **Geographic Analysis**: District-level pattern recognition for resource allocation
 
-## Dashboard Features
-
 ### Executive View
 - High-level KPIs showing overall representation rates
 - Geographic heat maps highlighting underserved areas
@@ -137,10 +137,14 @@ legal-representation-pipeline/
 ├── synapse-sql/
 │   ├── external-tables.sql          # External table definitions
 │   └── analytics-views.sql          # Business logic views for Power BI
+├── Power-BI
+│   ├── representation-gap_dashboard.pbix         # Dashboard
 ├── documentation/
-│   └── requirements.md              # Client requirements document
-└── README.md
+│   └── requirements.md        # Client requirements document
+└── README.me
+
 ```
+
 
 ## Business Value Demonstrated
 
