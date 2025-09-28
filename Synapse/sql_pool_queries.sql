@@ -123,7 +123,7 @@ WITH (
 );
 
 -- ============================================
--- CREATE VIEWS FOR POWER BI (OPTIONAL)
+-- CREATE VIEWS FOR POWER BI
 -- ============================================
 
 -- Comprehensive view joining all dimensions for easy Power BI consumption
