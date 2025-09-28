@@ -29,7 +29,7 @@ Criminal justice agencies lack real-time visibility into defendants who need but
 
 ## Dashboard
 
-<img width="973" height="524" alt="image" src="https://github.com/user-attachments/assets/85faba28-bc33-4261-88c6-5cdf89059734" />
+<img width="951" height="535" alt="image" src="https://github.com/user-attachments/assets/6cf34f6d-549a-4a74-af39-d549b287ed37" />
 
 ### Technology Stack
 
