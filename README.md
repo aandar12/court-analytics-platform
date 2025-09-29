@@ -31,6 +31,10 @@ Criminal justice agencies lack real-time visibility into defendants who need but
 
 <img width="998" height="554" alt="image" src="https://github.com/user-attachments/assets/020dfbf4-f399-4a07-b53c-cc4d7683abb0" />
 
+
+<img width="895" height="505" alt="image" src="https://github.com/user-attachments/assets/6cf0de6d-1e20-4756-b87d-69e7b0a3b07b" />
+
+
 ### Technology Stack
 
 - **Data Generation**: Python with realistic court proceedings simulation
